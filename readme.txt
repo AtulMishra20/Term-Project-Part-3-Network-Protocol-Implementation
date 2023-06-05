@@ -8,7 +8,7 @@ Make sure that you have Python3, and pip installed on your system.
 
 How to Compile and Run the code
 
-You can download the scripts and run them directly instead of copying the directories and going through that procedure( just a personal preference :) ).
+You can download the scripts and run them directly instead of  going through the cloning repository procedure( just a personal preference :) ).
 
 You can run the server script by using the following command:
 python3 server.py
