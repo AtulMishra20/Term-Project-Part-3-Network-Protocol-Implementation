@@ -1,0 +1,12 @@
+Reflections and Learnings from TalkByte Protocol Implementation
+
+During the implementation of the TalkByte protocol, I realized that software engineering is an iterative and feedback-driven process. The efforts necessary to make the protocol workable allowed me to delve deeper into its structure and requirements, enhancing my knowledge and comprehension of protocol design and network communication.
+
+The initial step was to design the protocol, but setting it into a real-world application was a challenge that helped me better understand the complexity involved. When transitioning from the design to the implementation segments, some components of the design had to be reconsidered or altered to meet the realities of code.
+For example, the TalkByte protocol's early design omitted the issue of user termination of the chat session. It became clear during implementation that a mechanism for a user to terminate the chat session is critical for user experience. As a result, an additional command called 'STOP' was added to the protocol to enable this functionality.
+
+Furthermore, handling the authentication proved to be more difficult in practice than in theory. Initially, the intention was to include a sophisticated password hashing system for security. However, due to technical difficulties during the deployment phase, password hashing had to be bypassed. Instead, the system displays the password directly, acting as a placeholder for future feature development.
+
+Finally, the testing and debugging processes influenced the protocol's design and implementation. To ensure the protocol's seamless operation, numerous changes were made, such as in error handling and message passing.
+
+Overall, the implementation process was a learning experience, revealing that even well-thought-out plans may require revisions and fine-tuning when confronted with the reality of practical execution. In the future, this feedback-driven process will certainly result in a more robust and successful protocol design.
